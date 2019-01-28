@@ -20,13 +20,12 @@ def take_a_number (array, name)
 end 
 
 def now_serving 
+  if  katz_deli == []
+    puts "There is nobody waiting to be served!"
+  else
   array.shift(name)
-  puts "Currently serving #{name}."
-else
-  katz_deli == []
-  puts "There is nobody waiting to be served!"
-end
-
+    puts "Currently serving #{name}."
+ end
 end 
 
   
