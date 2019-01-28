@@ -26,7 +26,6 @@ def now_serving(another_deli)
   else
      another_deli.shift
    end 
-   puts phrase
 end 
   
   
