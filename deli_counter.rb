@@ -24,9 +24,10 @@ def now_serving(another_deli)
   if  another_deli == []
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{name}."
-    another_deli.shift(name)
- end
+     another_deli.shift do |name|
+       phrase += "#{name}"
+     end
+    puts phrase
 end 
 
   
