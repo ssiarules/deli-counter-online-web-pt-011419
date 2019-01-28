@@ -25,9 +25,7 @@ def now_serving(another_deli)
     puts "There is nobody waiting to be served!"
   else
     phrase += "#{name}"
-     another_deli.shift do |name|
-     end
-     puts phrase 
+     another_deli.shift
    end 
 end 
   
