@@ -27,6 +27,7 @@ def now_serving(another_deli)
      another_deli.shift do |name|
        phrase += "#{name}"
      end
+   end 
 end 
   
   
