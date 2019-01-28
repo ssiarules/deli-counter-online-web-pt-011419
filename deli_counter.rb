@@ -19,12 +19,12 @@ def take_a_number (array, name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
 end 
 
-def now_serving(katz_deli)
+def now_serving(another_deli)
   phrase = "Currently serving."
-  if  katz_deli == []
+  if  another_deli == []
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.shift(name) do |name|
+    another_deli.shift(name) do |name|
        phrase += array.shift(name)
      end
     puts "Currently serving #{name}."
