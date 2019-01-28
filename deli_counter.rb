@@ -24,7 +24,7 @@ def now_serving(katz_deli)
   if  katz_deli == []
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.each.index do |name|
+    katz_deli.each.index.shift do |name|
        phrase += array.shift(name)
      end
     puts "Currently serving #{name}."
