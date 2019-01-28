@@ -20,7 +20,7 @@ def take_a_number (array, name)
 end 
 
 def now_serving(other_deli)
-  if phrase = "Currently serving."
+  if phrase == "Currently serving."
         other_deli.shift do |name|
       phrase += "#{name}"
   else 
