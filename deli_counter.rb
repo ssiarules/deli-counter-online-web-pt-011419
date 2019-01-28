@@ -25,6 +25,7 @@ def now_serving(other_deli)
       phrase += "#{name}"
   else 
     other_deli == []
+  end 
     puts "There is nobody waiting to be served!"
   end 
 end 
