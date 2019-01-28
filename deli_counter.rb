@@ -24,7 +24,7 @@ def now_serving(katz_deli)
   if  katz_deli == []
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.shift(1) do |name|
+    katz_deli.shift(name) do |name|
        phrase += array.shift(name)
      end
     puts "Currently serving #{name}."
