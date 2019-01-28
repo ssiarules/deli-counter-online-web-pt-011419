@@ -24,6 +24,7 @@ def now_serving(line)
   if line == []
     puts "There is nobody waiting to be served!"
    else 
+     
      phrase = "Currently serving #{other_deli.shift}."
   end 
     puts phrase 
@@ -31,4 +32,3 @@ def now_serving(line)
 end 
   
   
- 
