@@ -24,7 +24,6 @@ def now_serving(another_deli)
   if  another_deli == []
     puts "There is nobody waiting to be served!"
   else
-    phrase += "other_deli"
      another_deli.shift
    end 
 end 
