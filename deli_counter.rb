@@ -19,9 +19,9 @@ def take_a_number (array, name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
 end 
 
-def now_serving(other_deli)
+def now_serving(line)
   phrase = "There is nobody waiting to be served!"
-  if other_deli == []
+  if line == []
     puts "There is nobody waiting to be served!"
    else 
      phrase = "Currently serving #{other_deli.shift}."
